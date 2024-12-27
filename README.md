@@ -12,7 +12,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Internet Information Services (IIS)
 
@@ -25,7 +25,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Webserver (w/ URL Rewrite module installed)
 - PHP
 - MySQL
-- Account with full privileges 
+  * Account with full privileges 
 
 <h2>Installation Steps</h2>
 
