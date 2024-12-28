@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Webserver (w/ URL Rewrite module installed)
 - PHP
-- MySQL (w/ an account with full privileges) 
+- MySQL (w/ an account with full privileges)
 
 <h2>Installation Steps</h2>
 
