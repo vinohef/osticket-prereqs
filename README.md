@@ -12,7 +12,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Computer)
+- Microsoft Azure (Virtual Machines/Computer) (EVERYTHING IS DONE HERE)
 - Remote Desktop
 - Internet Information Services (IIS)
 
@@ -61,6 +61,71 @@ Let's turn on IIS
 </p>
 <br />
 
+<h2>Next we'll have to create the directory C:\PHP</h2>
+Go to your File explorer click on your C: drive 
+<p>
+<img src="https://i.imgur.com/98qb7Hl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Create a new folder.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/OiP6k2l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Name it "PHP". You can right click the folder and rename it if you messed up.
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/PU9556R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+This is where all the binaries for php are going to go.
+</p>
+<br />
+
+Now we need to put the binaries into the folder we just created.
+<p>
+<img src="https://i.imgur.com/eERtYi2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+That's it for PHP 
+</p>
+<br />
+
+Next we'll have to install PHP Manager
+<p>
+<img src="https://i.imgur.com/d5UGDEe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Since osTicket is a PHP application we need this so everything will run smoothly.
+</p>
+<br />
+
+Now we're going to install the URL rewrite module
+
+<p>
+<img src="https://i.imgur.com/aJWkkj7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+This makes osTicket easier to use and helps it handle requests properly.
+</p>
+<br />
+
+We'll also need a Visual C++ Redistributable (we're using the x86 version here)
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+This is essentially for compatibility purposes.
+</p>
+<br />
+
+<h2>Now we'll set up our MySQL server :)</h2>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -77,3 +142,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
