@@ -118,7 +118,7 @@ This makes osTicket easier to use and helps it handle requests properly.
 
 We'll also need a Visual C++ Redistributable (we're using the x86 version here)
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OIwRU8X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 This is essentially for compatibility purposes.
