@@ -191,9 +191,64 @@ From here we should be able to run IIS as an admin
 </p>
 <br />
 
-Now lets open PHP manager
+Now lets open PHP manager so we can
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OskzJUA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+Inside lets click "Register New PHP version"
+<p>
+<img src="https://i.imgur.com/eDnqOBg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+This lets our webserver (IIS) execute php scripts.
+</p>
+<br />
+
+We'll need to find the file php-cgi.exe in our directory C:\PHP we setup earlier
+<p>
+<img src="https://i.imgur.com/IOF0gP6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/cICfQUx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/Tx4IJyr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+Now we need to reload IIS.
+<p>
+<img src="https://i.imgur.com/p62q9HE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/jvWUHv5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+This makes sure that our changes are applied to the servers configuration settings
+</p>
+<br />
+
+<h2>Now we can finally install osTicket </a>☺</h2>
+
+Unzip osTickets file
+<p>
+<img src="https://i.imgur.com/PeeVNTE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/lrirMRG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
@@ -207,14 +262,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -224,14 +271,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 </p>
 <br />
 
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 
 <p>
@@ -243,6 +282,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -252,6 +292,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <br />
 
 
+
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
@@ -259,4 +300,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
+
 
