@@ -297,7 +297,7 @@ Now we need to restart IIS again.
 
 <h2>Let's access our website through our IIS.</h2>
 
-We'll follow the same steps we took before... (If you don't remember how to get to IIS you can look [here](https://github.com/vinohef/osticket-prereqs/edit/main/README.md#now-were-going-to-register-php-inside-of-iis). Once IIS is open come back!
+We'll follow the same steps we took before... (If you don't remember how to get to IIS you can look [here](https://github.com/vinohef/osticket-prereqs/tree/main?tab=readme-ov-file#now-were-going-to-register-php-inside-of-iis). Once IIS is open come back!
 
 <p>
 <img src="https://i.imgur.com/6MzDvKr.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
