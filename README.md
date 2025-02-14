@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Webserver (w/ URL Rewrite module installed)
 - PHP
-- MySQL database (w/ an account with full privileges)
+- MySQL database (w/ HeidiSQL and an account with full privileges)
 
 <h2>Installation Steps:</h2>
 Let's turn on IIS
@@ -125,7 +125,10 @@ This is essentially for compatibility purposes.
 </p>
 <br />
 
-<h2>Finally, our last prerequisite </a>☺</h2>
+<h2></h2>
+
+Finally, our last prerequisite </a>☺
+
 Let's set up our MySQL server 
 <p>
 <img src="https://i.imgur.com/OCvYwgI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -177,7 +180,10 @@ This is that account with full privileges that we need!
 </p>
 <br />
 
-<h2>Now we're going to register PHP inside of IIS</h2>
+<h2></h2>
+
+Now we're going to register PHP inside of IIS
+
 If we dont then we wont be able to run osTicket.
 Go to your desktop and search "IIS"
 <p>
@@ -437,93 +443,112 @@ Do you remember your Password when you setup MySQL????
 </p>
 <br />
 
+<h2>Now we just need to make some tiny adjustments before we're done</h2>
+
+Let's rename our configuration file
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-
-<p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/DTi0VlM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/5V5Cr22.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tUkLvhM.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/W1PweUH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+<br />
+
+
+<p>
+<img src="https://i.imgur.com/OkglpxD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/2HkbBlw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7h75joa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
+
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/UHgZHSy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+DONT CLOSE THIS WHEN YOU'RE DONE
+
+<p>
+<img src="https://i.imgur.com/2ifXhhx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h2>We need to make sure osTicket has access to make changes to it now</h2>
+
+<p>
+<img src="https://i.imgur.com/7h75joa.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/KK4qvdD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 
+
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/5Gsv0v8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 
+
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/UXjhKph.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
 
+
 <p>
-<img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/GyHkiCD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
+
+
+<p>
+<img src="https://i.imgur.com/pFimqCP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+
+
+<p>
+<img src="https://i.imgur.com/w3Tvkuw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h2></h2>
+Nice job! Everything should be installed and ready to go hopefully
